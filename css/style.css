@@ -1,0 +1,210 @@
+* {
+        font-family: 'Poppins', sans-serif;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        /* overflow: hidden; */
+}
+.sidebar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #11101d;
+        color: white;
+        height: 100vh;
+        width: 250px;
+        /* transition: all 0.5s ease; */
+}
+ /* .close{
+        width: 70px;
+} */
+
+.sidebar .logo-Details {
+        margin-top: 10px;
+        height: 60px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+
+
+}
+.sidebar .logo-Details i {
+        font-size: 30px;
+        margin-left: 5px;
+        height: 50px;
+        min-width: 60px;
+        text-align: center;
+        line-height: 50px;
+        cursor: pointer;
+}
+.sidebar .logo-Details .logo-Name{
+        font-size: 22px;
+        margin-left: 10px;
+        font-weight: 600;
+
+}
+.sidebar .nav-links {
+        height: 100vh;
+        padding: 30px 0 150px 0;
+        /* overflow: hidden; */
+}
+.sidebar .nav-links::-webkit-scrollbar{
+        display: none;
+}
+.sidebar .nav-links li {
+        list-style: none;
+        position: relative;
+        transition: all 0.4s ease;
+}
+.sidebar .nav-links li:hover{
+        background: #1d1b31;
+}
+.sidebar .nav-links li .icon-links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+.sidebar .nav-links li .icon-links .arrow {
+        cursor: pointer;
+}
+.sidebar .nav-links li i {
+        height: 50px;
+        min-width: 60px;
+        text-align: center;
+        line-height: 50px;
+        color: white;
+        font-size: 20px;
+}
+
+.sidebar .nav-links li a{
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        
+}
+.sidebar .nav-links li a .link-name {
+        font-size: 18px;
+        color: white;
+        font-weight: 400;
+        margin-left: 15px;
+}
+.sidebar .nav-links li .sub-menu {
+        padding: 8px 6px 11px 70px;
+        background: #1d1b31;
+        display: none;
+        /* transition: all .1s ease-in-out; */
+}
+
+.sidebar .nav-links li .sub-menu a {
+        padding: 5px 0 ;
+        color: white;
+        font-size: 15px; 
+}
+.sidebar .nav-links li .reveal {
+        display: block;
+}
+.sidebar .nav-links li .arrowdrop {
+        transform: rotate(180deg);
+}
+.sidebar .nav-links li .arrowdrop2 {
+        transform: rotate(180deg);
+}
+.sidebar .nav-links li .arrowdrop3 {
+        transform: rotate(180deg);
+}
+
+.sidebar .nav-links li .sub-menu li .sub-links {
+        opacity: 0.6;
+        transition: all 0.3s ease;
+}
+.sidebar .nav-links li .sub-menu li .sub-links:hover {
+        opacity: 1;
+}
+.sidebar .nav-links li .reveal2 {
+        display: block;
+}
+.sidebar .nav-links li .icon-links .arrow {
+        cursor: pointer;
+}
+
+.sidebar .nav-links li .reveal3{
+        display: block;
+}
+
+.sidebar .profile-details {
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        background: #1d1b31;
+        width: 250px;
+        padding: 5px;
+}
+.sidebar .profile-details .profile-content {
+        display: flex;
+        align-items: center;
+}
+.sidebar .profile-details img {
+        height: 55px;
+        width: 55px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-right: 10px;
+        background: #26233f;
+        padding: 10px;
+        transition: all 0.3s ease;
+}
+.sidebar .profile-details .close3 {
+        padding: 5px;
+}
+
+.sidebar .profile-details .profile-name{
+        font-size: 17px ;
+        font-weight: 500;
+}
+
+.sidebar .profile-details .name-job .job{
+        font-size: 10px ;
+        font-weight: 300;
+        color: rgb(163, 170, 175);
+}
+.sidebar .profile-details i {
+        margin-left: 20px;
+        font-size: 20px;
+}
+
+/* home section */
+.home-section{
+        position: relative;
+        background: #e4e9e7;
+        width: 100vw;
+        height: 101vh;
+        left: 250px;
+        /* display: none; */
+        bottom: 110%;
+        transition: all 0.5s ease;
+}
+.close2{
+        left: 70px;
+}
+
+.home-section .home-content {
+        display: flex;
+        align-items: center;
+        height: 60px;
+}
+.home-section .home-content i {
+        font-size: 37px;
+        color: #11101d;
+        font-weight: 600;
+        margin: 0 15px;
+        cursor: pointer;        
+
+}
+.home-section .home-content .text{
+        font-size: 28px;
+        font-weight: 600;
+        color: #11101d;
+}
